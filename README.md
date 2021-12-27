@@ -1,8 +1,8 @@
 # BPER+ (Bayesian Personalized Explanation Ranking enhanced by BERT)
 
 ## Papers
-> Lei Li, Yongfeng Zhang, Li Chen. [Learning to Explain Recommendations](https://arxiv.org/abs/2102.00627). 2021.
-> Lei Li, Yongfeng Zhang, Li Chen. [EXTRA: Explanation Ranking Datasets for Explainable Recommendation](https://lileipisces.github.io/files/SIGIR21-EXTRA-paper.pdf). SIGIR'21 Resource.
+- Lei Li, Yongfeng Zhang, Li Chen. [Learning to Explain Recommendations](https://arxiv.org/abs/2102.00627). 2021.
+- Lei Li, Yongfeng Zhang, Li Chen. [EXTRA: Explanation Ranking Datasets for Explainable Recommendation](https://lileipisces.github.io/files/SIGIR21-EXTRA-paper.pdf). SIGIR'21 Resource.
 
 ## Datasets to [download](https://drive.google.com/drive/folders/1Kb4pOCUja1EgDlhP-YQI8AxofHBkioT5?usp=sharing)
 - Amazon Movies & TV
