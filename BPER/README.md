@@ -1,4 +1,4 @@
-# BPER+ (Bayesian Personalized Explanation Ranking enhanced by BERT)
+# BPER (Bayesian Personalized Explanation Ranking) & BPER-J (Joint-ranking)
 
 ## Papers
 > Lei Li, Yongfeng Zhang, Li Chen. [Learning to Explain Recommendations](https://arxiv.org/abs/2102.00627). 2021.
@@ -12,40 +12,26 @@
 If you are interested in how to create the datasets, please refer to [EXTRA](https://github.com/lileipisces/EXTRA).
 
 ## Usage
-Below is an example of how to run BPER+.
+Below are examples of how to run BPER and BPER-J.
 ```
-python -u run_bperp.py \
---cuda \
---data_dir ../Amazon/ \
+python -u run_bper.py \
+--data_path ../Amazon/IDs.pickle \
 --index_dir ../Amazon/2/ \
---lr 0.0001 >> bperp.log
-```
+--mu_on_user 0.7 >> bper.log
 
-## Use pre-downloaded BERT
-* Download the three files and put them in a folder, e.g., ./bert-base-uncased/
-    * [vocab.txt](https://huggingface.co/bert-base-uncased/blob/main/vocab.txt)
-    * [config.json](https://huggingface.co/bert-base-uncased/blob/main/config.json)
-    * [pytorch_model.bin](https://huggingface.co/bert-base-uncased/blob/main/pytorch_model.bin)
-* Run the program
-```
-python -u run_bperp.py \
---cuda \
---data_dir ../Amazon/ \
---index_dir ../Amazon/2/ \
---model_name ./bert-base-uncased/ \
---lr 0.0001 >> bperp.log
+python -u run_bperj.py \
+--data_path ../Amazon/IDs.pickle \
+--index_dir ../Amazon/1/ \
+--alpha 0.6 \
+--mu_on_user -1 >> bperj.log
 ```
 
 ## Friendly reminders
 - If you want to do follow-up works on our BPER/BPER-J, please modify the code of BPER+, as it is more efficient.
 - If you do so, please set the maximum iteration number to a relatively large value, e.g., ```--epochs 50```.
 
-## Code dependencies
+## Code dependency
 - Python 3.6
-- PyTorch 1.6
-
-## Code reference
-- [Tutorial: Fine tuning BERT for Sentiment Analysis](https://skimai.com/fine-tuning-bert-for-sentiment-analysis/#D---Fine-tuning-BERT)
 
 ## Citations
 ```
