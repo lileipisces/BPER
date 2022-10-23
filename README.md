@@ -1,7 +1,7 @@
 # BPER+ (Bayesian Personalized Explanation Ranking enhanced by BERT)
 
 ## Papers
-- Lei Li, Yongfeng Zhang, Li Chen. [On the Relationship between Explanation and Recommendation: Learning to Rank Explanations for Improved Performance](https://arxiv.org/abs/2102.00627). 2021.
+- Lei Li, Yongfeng Zhang, Li Chen. [On the Relationship between Explanation and Recommendation: Learning to Rank Explanations for Improved Performance](https://arxiv.org/abs/2102.00627). ACM Transactions on Intelligent Systems and Technology (TIST), 2022.
 - Lei Li, Yongfeng Zhang, Li Chen. [EXTRA: Explanation Ranking Datasets for Explainable Recommendation](https://lileipisces.github.io/files/SIGIR21-EXTRA-paper.pdf). SIGIR'21 Resource.
 
 ## Datasets to [download](https://lifehkbueduhk-my.sharepoint.com/:f:/g/personal/16484134_life_hkbu_edu_hk/EosVj7lRYKhBgpfdXRUDm84Ba4y0Kuueye3e1m0e3dQYEQ?e=4PUnLC)
@@ -49,11 +49,11 @@ python -u run_bperp.py \
 
 ## Citations
 ```
-@article{2021-BPER,
+@article{TIST22-BPER,
 	title={On the Relationship between Explanation and Recommendation: Learning to Rank Explanations for Improved Performance},
 	author={Li, Lei and Zhang, Yongfeng and Chen, Li},
-	journal={arXiv preprint arXiv:2102.00627},
-	year={2021}
+	journal={ACM Transactions on Intelligent Systems and Technology (TIST)},
+	year={2022}
 }
 @inproceedings{SIGIR21-EXTRA,
 	title={EXTRA: Explanation Ranking Datasets for Explainable Recommendation},
